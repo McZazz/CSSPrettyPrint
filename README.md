@@ -1,4 +1,4 @@
-# CSSPrettyPrint
+# CSSprettyPrint
 
 Enter some CSS into the "prettyCSS_input.txt" formatted how you want it to appear on your tutorial, how-to site or other resource where you need pretty printed and colored CSS code to display on a webpage. Run the "prettyCSS.py" script and then copy the new text found in the "prettyCSS_output.txt" file and paste it into your website's html, in a div with the class of "code". The supplied CSS will do the rest to get you started.
 
