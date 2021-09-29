@@ -1,0 +1,5 @@
+    /* sets the item's        maximum width */
+
+#item3-in-cont/*ain</div>er */{
+   flex-basis: rgb(23,456,.6);
+}

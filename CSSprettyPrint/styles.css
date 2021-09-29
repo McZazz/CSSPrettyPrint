@@ -1,0 +1,190 @@
+:root {
+  /* background colors */
+  --ltblue: #9395a8;
+  --dkblue: #c6cad6;
+  /* code colors */
+  --codebg: rgb(46,52,64);
+  --stringgrn: rgb(163,190,140);
+  --funcgrn: rgb(143,188,187);
+  --codeblu: rgb(129,161,193);
+  --codewht: rgb(216,222,233);
+  --codenums: rgb(180,142,172);
+  --codegray: rgb(98,110,135);
+}
+
+/* code colors */
+.sg {
+  color: var(--stringgrn);
+}
+.cw {
+  color: var(--codewht);
+}
+.fg {
+  color: var(--funcgrn);
+}
+.cn {
+  color: var(--codenums);
+}
+.cg {
+  color: var(--codegray);
+}
+
+body {
+  margin: 5px auto 5px auto;
+  padding: 0 0 5px 0;
+  background-color: var(--dkblue);
+}
+
+.code {
+  /* gets scrollbars and nowrap */
+  overflow-x: auto;
+  white-space: nowrap;
+  line-height: 6px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 2%;
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 20px;
+  background-color: var(--codebg);
+  color: var(--codeblu);
+}
+
+/* tab amounts, font-size and monospace are all interrelated... results may vary based on monospace font used, causeing spacing irregularities */
+
+/* tabs */
+.t1 {
+    margin-left: 12px;
+}
+.t2 {
+    margin-left: 24px;
+}
+.t3 {
+    margin-left: 36px;
+}
+.t4 {
+    margin-left: 48px;
+}
+.t5 {
+    margin-left: 60px;
+}
+.t6 {
+    margin-left: 72px;
+}
+.t7 {
+    margin-left: 84px;
+}
+.t8 {
+    margin-left: 96px;
+}
+.t9 {
+    margin-left: 108px;
+}
+.t10 {
+    margin-left: 120px;
+}
+.t11 {
+    margin-left: 132px;
+}
+.t12 {
+    margin-left: 144px;
+}
+.t13 {
+    margin-left: 156px;
+}
+.t14 {
+    margin-left: 168px;
+}
+.t15 {
+    margin-left: 180px;
+}
+.t16 {
+    margin-left: 192px;
+}
+.t17 {
+    margin-left: 204px;
+}
+.t18 {
+    margin-left: 216px;
+}
+.t19 {
+    margin-left: 228px;
+}
+.t20 {
+    margin-left: 240px;
+}
+.t21 {
+    margin-left: 252px;
+}
+.t22 {
+    margin-left: 264px;
+}
+.t23 {
+    margin-left: 276px;
+}
+.t24 {
+    margin-left: 288px;
+}
+.t25 {
+    margin-left: 300px;
+}
+.t26 {
+    margin-left: 312px;
+}
+.t27 {
+    margin-left: 324px;
+}
+.t28 {
+    margin-left: 336px;
+}
+.t29 {
+    margin-left: 348px;
+}
+.t30 {
+    margin-left: 360px;
+}
+.t31 {
+    margin-left: 372px;
+}
+.t32 {
+    margin-left: 384px;
+}
+.t33 {
+    margin-left: 396px;
+}
+.t34 {
+    margin-left: 408px;
+}
+.t35 {
+    margin-left: 420px;
+}
+.t36 {
+    margin-left: 432px;
+}
+.t37 {
+    margin-left: 444px;
+}
+.t38 {
+    margin-left: 456px;
+}
+.t39 {
+    margin-left: 468px;
+}
+.t40 {
+    margin-left: 480px;
+}
+
+.notaclass {
+  align-items:
+  flex-direction:
+}
+
+.hidden {
+  color: hsla(206,61%,41%,0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
